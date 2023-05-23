@@ -1,0 +1,10 @@
+{
+    "search.useIgnoreFiles": false,
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=250",
+    ],
+    "autoDocstring.docstringFormat": "numpy"
+
+}

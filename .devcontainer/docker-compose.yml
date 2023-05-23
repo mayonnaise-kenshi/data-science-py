@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    data-science-py:
+        image: ghcr.io/mayonnaise-kenshi/data-science-py:latest
+        container_name: data-science-py
+        command: sleep infinity
+        working_dir: '/workdir'
+        volumes: 
+            -   ../:/workdir

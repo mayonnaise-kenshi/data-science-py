@@ -14,6 +14,7 @@ RUN pip install numpy scipy matplotlib pandas ipykernel seaborn statsmodels pmda
 RUN pip install japanize_matplotlib
 RUN pip install pykalman
 RUN pip install opencv-python
+RUN pip install autopep8
 
 # for scraping
 RUN pip install requests beautifulsoup4

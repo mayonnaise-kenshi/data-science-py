@@ -1,0 +1,20 @@
+{
+    "name": "data-science-py",
+    "dockerComposeFile":"docker-compose.yml",
+    "service": "data-science-py",
+    "workspaceFolder": "/workdir",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+          // Add the IDs of extensions you want installed when the container is created.
+          "extensions": [
+            "mhutchie.git-graph",
+            "ms-python.python",
+            "shd101wyy.markdown-preview-enhanced",
+            "jock.svg",
+            "njpwerner.autodocstring"
+          ]
+        }
+      }
+}
